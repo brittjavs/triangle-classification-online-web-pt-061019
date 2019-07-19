@@ -25,6 +25,12 @@ def kind
       end
     end
   end
+  
+  class TriangleError < StandardError
+  end
+end
+
+
 
   # def kind
   #   is_valid
@@ -45,7 +51,3 @@ def kind
   # end
   # raise TriangleError if triangles.include?(false)
   # end
-
-  class TriangleError < StandardError
-  end
-end
