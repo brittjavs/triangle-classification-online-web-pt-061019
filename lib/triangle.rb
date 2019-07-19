@@ -25,7 +25,6 @@ def kind
       end
     end
   end
-end
 
   # def kind
   #   is_valid
